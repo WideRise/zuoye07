@@ -1,0 +1,90 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: #fff2e3
+        }
+
+        .contains {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center
+        }
+
+        .common {
+            display: list-item;
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .common.space {
+            font-size: 0px;
+        }
+        
+        .common1 {
+            display: inline-block;
+            font-size: 18px;
+            color: white;
+            background-color: #72b890;
+            padding: 5px;
+            margin: 0 10px;
+        }
+
+        .common1:hover{
+            opacity: 0.2;
+        }
+
+        .common.space :first-of-type{
+            opacity: 0.2;
+        }
+
+        .common.project {
+            font-size: 2em;
+        }
+
+        .common.introduce {
+            font-size: 15px;
+            color: gray
+        }
+
+        .name {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contains">
+        <span class="common project">我的项目</span>
+        <span class="common introduce">一句话项目介绍</span>
+        <ul class="common  space">
+            <li class="common1">项目1</li>
+            <li class="common1">项目2</li>
+            <li class="common1">项目3</li>
+            <li class="common1">项目4</li>
+            <li class="common1">项目5</li>
+        </ul>
+        <div class="common  picture">
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" />
+        </div>
+        <ol class="common space">
+            <li class="common1">查看源码</li>
+            <li class="common1">使用说明</li>
+        </ol>
+        <span class="common introduce">作者：<em class="name">我</em></span>
+    </div>
+</body>
+
+</html>
